@@ -3,7 +3,7 @@ FROM node:slim
 ARG MAIN_APP
 ENV APPNAME ${MAIN_APP}
 ENV USERNAME docker  
-ENV ARTIFACTORY_HOME /home/u26/${USERNAME}/hello
+ENV ARTIFACTORY_HOME /home/${USERNAME}
 
 # DON'T change USERNAME
 # Add a docker user, make work dir
